@@ -1,0 +1,771 @@
+body {
+    background-color: rgb(205, 181, 181);
+    background-position: center;
+    border-radius: 0;
+    opacity: 1;
+    margin: 0;
+    padding: 0 0.5em 0.25em 0.5em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    /*top right bottom left*/
+}
+
+main {
+
+    flex-grow: 1;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+
+}
+
+div.pinkie {
+
+    background-color: rgb(233, 99, 177);
+    height: 1em;
+    width: 100;
+    margin-right: -0.5em;
+    margin-left: -0.5em;
+    border-bottom-width: 0.10em;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    box-shadow:5px 5px 8px rgb(231, 145, 226);
+    
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+p {
+
+    font-size: large;
+    line-height: 1.5;
+    
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(78, 77, 77);
+    font-weight: bold;
+    margin: auto;
+}
+
+h1.one {
+
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:#4f433c;
+    font-weight: bold;
+    margin: auto;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    color:#313030;
+    font-weight: normal;
+}
+
+div.float-submission {
+
+    float: none;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-style: none;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+div.float-submission .box {
+    
+    width: 25%;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+
+}
+
+div.float-submission02 {
+
+    float: right;
+    padding-right: 10px;
+
+}
+
+div.body-padding {
+
+    max-width: 50rem;
+    margin: auto;
+}
+
+div.submissions-margins {
+
+    height: 10rem;
+    width: 10rem;
+    border: hidden;
+}
+
+footer.clear {
+
+    clear: both;
+
+}
+
+footer.one {
+
+    color: lightpink;
+    background-color: black;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    margin-bottom: -0.25em;
+    padding-bottom: 10em;
+    text-align: left;
+    
+    
+  
+}
+
+
+div.footer {
+
+    padding-top: 1em;
+    padding-left: 0.5em;
+    color: lightpink;
+}
+
+hr.one {
+
+    padding-left: -0.25em;
+}
+
+small.one {
+
+    color: lightpink;
+}
+h2.small-caps {
+
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+b.submissions {
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+b.submissions-ai {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-thickness: 0.125em;
+}
+h3.one {
+    color:rgb(71, 73, 75);
+    font-weight: normal;
+}
+
+h4.one {
+    color:rgb(139, 143, 143);
+    font-weight: normal;
+}
+
+h2.one {
+    color:rgb(71, 73, 75);
+    font-weight: normal;
+}
+
+p.one {
+    border-style: solid;
+    border-width: small;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0.5%;
+}
+
+p.two {
+    text-indent: 1em;
+    margin: 1;
+}
+
+p.three {
+    border-left-style: solid;
+    border-color:rgb(168, 170, 172);
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+
+img.one {
+    float: left;
+    width:25%;
+    margin-right: 1em;
+}
+
+
+header {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    background-color: none;
+    
+
+
+}
+
+a.button-center {
+
+background-color: rgb(78, 93, 74);
+padding: 0.5em 3em;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: large;
+cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+transition-duration: 0.2s;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-top: auto;
+width: 12em;
+height: 6em;
+
+letter-spacing: 3px;
+
+
+}
+
+/* unvisited link */
+a.button-center:link {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* visited link */
+a.button-center:visited {
+    color:white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.button-center:hover {
+    color:rgb(255, 255, 255);
+    background-color: rgb(102, 115, 102);
+    border-color: white;
+    border-width: 0.125em;
+    /*text-decoration: underline;*/
+}
+
+/* selected link */
+a.button-center:active {
+    color:rgb(255, 255, 255);
+    background-color: rgb(45, 60, 45);
+    border-style: inset;
+    border-color: white;
+    border-width: 0.125em;
+}
+
+
+
+
+html {
+    background-image: url("archival/Images for Reference/malenia-cora.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* unvisited link */
+a:link {
+    color:rgb(120, 57, 115);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color:rgb(85, 39, 92);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color:rgb(217, 165, 217);
+    /*text-decoration: underline;*/
+}
+
+/* selected link */
+a:active {
+    color:rgb(241, 102, 234);
+    text-decoration: underline;
+}
+
+/* When setting the style for several link states, there are some order rules:
+
+a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover */
+
+ul.one {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*This is for the NAVIGATION BAR itself. I removed the
+    background color gradient.*/
+    
+   
+}
+
+
+
+
+
+
+li.one {
+    float: right;
+}
+
+li.one a {
+    display: block;
+    text-align: center;
+    padding: 1em 1em;
+    color: black;
+}
+
+li.one a:hover:not(.active) {
+        color:rgb(255, 0, 0);
+        /*text-decoration: underline;*/
+}
+
+.active {
+    /*background-image:linear-gradient(rgba(209, 79, 52, 0.9),
+    rgba(231, 175, 175, 0));
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin: 0%;
+    border-left-color:rgba(206, 31, 15, 0.9);
+    border-right-color:rgba(206, 31, 15, 0.9);
+    border-left-style: solid;
+    border-right-style: solid;*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a.active {
+    color:rgb(59, 211, 42);
+    text-decoration: underline;
+}
+
+a.active02 {
+
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(78, 77, 77);
+    word-wrap:break-word;
+    display: block;
+    overflow: hidden;
+
+}
+
+nav.navbar {
+
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+
+}
+
+.nav-menu {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-branding {
+
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* unvisited link */
+a.nav-branding:link {
+    color:rgb(78, 77, 77);
+    text-decoration: none;
+}
+
+/* visited link */
+a.nav-branding:visited {
+    color:rgb(78, 77, 77);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.nav-branding:hover {
+    color:rgb(78, 77, 77);
+    text-decoration: none;
+    /*text-decoration: underline;*/
+}
+
+/* selected link */
+a.nav-branding:active {
+    color:rgb(78, 77, 77);
+    text-decoration: none;
+}
+
+.nav-link {
+
+    transition: 0.7s ease;
+
+}
+
+.nav-link:hover {
+
+    color:#9a6c7f;
+    border-bottom: solid;
+    border-color: #9a6c7f;
+    border-width: 1em;
+    margin-bottom: 0.25em;
+    
+    
+
+    
+}
+
+.hamburger {
+
+    display: none;
+    cursor: pointer;
+
+}
+
+.bar {
+
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(78, 77, 77);
+
+}
+
+@media(max-width: 768px){
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgb(218, 206, 206);
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        transition: 0.3s;
+    }
+
+    nav-item{
+        margin: 16px 0;
+
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+}
+
+ul.one {
+    
+    top: 0;
+    font-weight: bold;
+    font-size: small;
+}
+
+ul.topnav {
+    list-style-type: none;
+    
+ 
+    padding: 0;
+    overflow: hidden;
+    /*background-color: rgb(214, 110, 188);
+     border-bottom-left-radius: 0.5%;
+     border-bottom-right-radius: 0.5%;*/
+}
+
+ul.topnav li {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    color: rgb(232, 99, 177);
+    text-align: center;
+    padding: 1.0em 1.0em;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul.topnav li a.one {
+
+    font-size: 1.75em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(78, 77, 77);
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+    display: block;
+    /* attempting to change "THANATAPATHY" to something more clean*/
+}
+
+ul.topnav li a:hover:not(.active) {
+    color: #9a6c7f;
+    
+    /*text-decoration: underline;*/
+}
+
+ul.topnav li a.active {
+    color:rgb(233, 99, 177);
+    border-bottom: solid;
+}
+
+/*@media screen and (max-width: 600px) {
+    ul.topnav li {
+        float:none;
+    }
+}8?
+
+/* Create columns that float next to each other */
+/*.column {
+    float: center;
+    width: 100%;
+    padding: 1em;
+}*/
+
+/* Clear floats after the columns */
+/*.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 40em) {
+    img.one {
+        width: 25%;
+    }
+}*/
+
+.scaleB {
+    width: 25%;
+}
+.scale { 
+    object-fit: scale-down; 
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+form {
+    border: 1px solid #f1b1b1 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    padding: 1.25em;
+    background-color: #fadbdb 0;
+    border-radius: 1%;
+
+}
+
+/*input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 0.75em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 1em;
+}
+
+input[type=submit] {
+    background-color: #f8b5b5;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}*/
+
+div.box-fill {
+
+    background-color: rgb(212, 210, 206);
+    opacity: 1;
+    border: 1px solid;
+    box-shadow: 5px 5px 8px lightpink, 10px 10px 8px rgb(235, 200, 211);
+    border-color: rgb(0, 0, 0);
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: justify;
+    text-justify: inter-word;
+
+    /*left right bottom top*/
+
+}
+
+/* <form action="/action_page.php">
+                        
+                    <div class="container">
+                        <h2 class="one"> Subscribe to my Blog!</h2>
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Email Address" name="mail" required>
+                        <label>
+                            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                        </label>
+                        <input type="submit" value="Subscribe">
+                    </div>
+
+                </form>
+*/
+
+/* <p>
+            <a href="https://biobuzz.io/" target="_blank">
+        <img src="Images for Reference/Press Page/BioBuzz_Horizontal_Logo.png" class="scaleB scale">
+            </a>
+        </p> */
+
+/* <p>
+            Born and raised in cisheteronormative and white Largo, Florida,
+            her self-identity was less a reality and more of an existence within the "other" until she began her medical and
+            social transition in 2020. Coraline and her late brother Josue were raised by their single Ecuadorian immigrant
+            mother. The two were half-siblings, the latter's father having passed away when he was just two years old, and the former being
+            conceived six years after Josue's birth after a one-night stand in Coraline's father's beach condo.
+        </p>
+        <p>
+            After her brother died in March 2018 from a semi-collision on his motorcycle,
+            Coraline resorted to writing her grief in simple, amateurish prose and poetry
+            as her verbal eptitude was never a strong suit of hers. Growing up, her
+            brother was flawed like any of us in this world, though Coraline looked up
+            to her older brother, confiding in him about her queerness at a very early age. 
+        </p>
+        <p>
+            She is currently published in University of Tampa's <i>Talon Review</i>, Baltimore Beat's 2025 Pride Issue, and she will 
+            soon have her short story <b>The Colour Red</b> published in <i>BULL</i> literary magazine
+            sometime in August 2025. She is now giving more focus to her novel series <i>Step Into Oblivion</i> and finishing up her
+            last short story <b>Bian Lian</b>, a story a part of a series of prose pieces about the grief of her brother,
+            the trauma of her family, and the loss of friendships from old childhood friends because of her transition. 
+        </p>
+
+        <p>
+            Coraline is currently officially unemployed, unofficially working part-time as a cashier at Whole Foods,
+            and is a graduate student at John Hopkins University in their Master's in Writing Program. She aspires to work in 
+            journalism & editorials for newsprint or liberatory media. She is pro-union, pro-Palestine, anti-car dependency, anti-genocide, anti-war,
+            anti-capitalist, a Socialist, Communist---what have you---and is proudly queer, trans, Ismaili, and latina.
+        </p>
+        <p>
+            Her current unpublished prose are:
+            <ul>
+                <li><b>Dancing Naked On The Sun</b>
+                    <ul>
+                        <li>An older narrator tells of their experience as a closeted
+                            trans youth in their conservative hometown.
+                        </li>
+                    </ul>
+                </li>
+                <li><b>Ballad For The Dead And Angels</b>
+                    <ul>
+                        <li>A queer child loses their older brother and biggest supporter
+                            during their journey as a trans youth.
+                        </li>
+                    </ul>
+                </li>
+                <li><b>Cry of Monarchs</b>
+                    <ul>
+                        <li>Politicians are removing the rights of a people, all
+                            while they lose their own humanity.
+                        </li>
+                    </ul>
+                </li>
+                <li><b>Bian Lian</b>
+                    <ul>
+                        <li>Alejandro can't help fetishizing trans women after
+                            sleeping with his first. To get away from his suspecting
+                            wife, he decides to visit his childhood friends in Florida and
+                            discovers one of them has transitioned into a woman all too successfully.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </p>
+
+*/
+
+/*<ul class="one topnav">
+            <li style="float:left"><a class="one" href="/home">THANATAPATHY</a></li>
+            <li class="one"><a href="/submissions">Submissions</a></li>
+            <li class="one"><a href="/issues">Issues</a></li>
+            <li class="one"><a href="/about-us">About Us</a></li>
+            <li class="one"><a href="/contact">Contact</a></li>
+            
+        </ul>

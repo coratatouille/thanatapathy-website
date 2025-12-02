@@ -420,6 +420,7 @@ nav.navbar {
 
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
+    
 
 }
 
@@ -566,6 +567,12 @@ ul.topnav li a.one {
     text-decoration: none;
     display: block;
     /* attempting to change "THANATAPATHY" to something more clean*/
+}
+
+img.logo {
+
+    max-height: 70rem;
+    object-fit: scale-down;
 }
 
 ul.topnav li a:hover:not(.active) {

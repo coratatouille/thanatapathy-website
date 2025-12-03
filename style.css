@@ -143,6 +143,45 @@ div.footer {
     color: lightpink;
 }
 
+/*Below will be the code for showing the graphics in a horizontal gallery*/
+
+div.gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+div.gallery-item {
+
+    margin: 5px;
+    border: none;
+    max-width: 250px;
+
+}
+
+div.gallery-item:hover {
+
+    box-shadow: 0 0 10px 2.5px black;
+
+}
+
+div.gallery-item img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+div.gallery-item div.desc {
+
+    padding: none;
+    text-align: center;
+}
+
+/*End of code for the image gallery on issue tab.*/
+
 hr.one {
 
     padding-left: -0.25em;

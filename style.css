@@ -153,6 +153,20 @@ div.gallery {
 
 }
 
+div.gallery-item-02 {
+
+    border: none;
+    max-width: 600px;
+    height: auto;
+    margin: 50px;
+}
+
+div.gallery-item-02 img {
+
+    max-width: 100%;
+    height: auto;
+}
+
 div.gallery-item {
 
     margin: 5px;

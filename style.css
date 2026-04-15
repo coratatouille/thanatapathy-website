@@ -737,6 +737,33 @@ div.box-fill {
 
 }
 
+div.box-fill02 {
+
+    background-color: rgb(212, 210, 206);
+    opacity: 1;
+    border: 1px solid;
+    box-shadow: 10px 10px pink, 20px 20px yellow;
+    border-color: black;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+div.box-fill03 {
+
+    background-color: black;
+    opacity: 1;
+    box-shadow: 10px 10px yellow, 20px 20px pink;
+    border-color: black;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* <form action="/action_page.php">
                         
                     <div class="container">

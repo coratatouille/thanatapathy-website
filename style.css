@@ -156,7 +156,7 @@ div.gallery {
 div.gallery-item-02 {
 
     border: none;
-    max-width: 600px;
+    max-width: 50em;
     height: auto;
     margin: 50px;
 }
